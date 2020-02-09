@@ -705,3 +705,7 @@ ul.links.inline li{
   margin: 0;
 }
 
+#menu .scroll{
+  width: 100% !important;
+    overflow: hidden !important;
+}
