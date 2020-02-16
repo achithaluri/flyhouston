@@ -44,7 +44,7 @@
  * - page.content: The main content of the current page.
  * - page.sidebar_first: Items for the first sidebar.
  * - page.sidebar_second: Items for the second sidebar.
- * - page.content_bottom: Items for the bottom in content region.
+  * - page.content_bottom: Items for the bottom in content region.
  * - page.footer_top: Items for the footer top region.
  * - page.footer_first: Items for the footer first region.
  * - page.footer_second: Items for the footer Second region.
@@ -645,40 +645,22 @@
 
 
   <footer>
-        <div id="otherlinks">
-    <div class="left">
-        <ul id="subnav">
-            <li>
-                
-                <span class="biz_btn">
-                    <a href="#biz/" aria-label="Business and Partnerships">Business and Partnerships</a>
-                </span>
-            </li>
-            
-
-<li><a href="#spaceport/">Houston Spaceport</a></li>
-
-<li><a href="#ellington-airport/">Ellington Airport</a></li>
-<li><a href="#biz/careers/">Careers</a></li>
-<li><a href="#contact/">Contact</a></li>
-<li><a href="#customer-feedback/">Feedback</a></li>
-<li><a href="#newsroom/">Newsroom</a></li>
-<li><a href="#biz/about/">About Us</a></li>
-<li><a target="_blank" href="#visithouston.com"><img alt="VisitHouston" src="/static/images/visithouston.svg">
-</a></li>
-        </ul>
+    
+<!-- Start Footer Menu -->
+{% if page.footer_menu %}
+  <div class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-12">
+          {{ page.footer_menu }}
+        </div>
+        
+      </div>
     </div>
-    <div class="right">
-        <ul>
-            
-<li><a href="#privacy-policy/">Privacy Policy</a></li>
-<li><a href="#legal/">Legal</a></li>
-<li>Houston Airport System © 2020</li>
-
-        </ul>
-    </div>
-</div>
-  </footer>
+  </div>
+{% endif %}
+<!-- End Footer Menu -->
+</footer>
 
 
 </div>

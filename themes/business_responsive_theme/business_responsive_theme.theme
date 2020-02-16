@@ -132,16 +132,6 @@ function business_responsive_theme_preprocess_page(&$variables) {
     }
   }
 
-
-$variables['footer_about'] = mymodule_get_menu_items('footer-about');
-$variables['footer_event'] = mymodule_get_menu_items('footer-event');
-$variables['footer_education'] = mymodule_get_menu_items('footer-education');
-$variables['footer_exhibits'] = mymodule_get_menu_items('footer-exhibits');
-$variables['footer_support'] = mymodule_get_menu_items('footer-support');
-$variables['footer_research'] = mymodule_get_menu_items('footer-research');
-$variables['footer_visit'] = mymodule_get_menu_items('footer-visit');
-$variables['footer_other_links'] = mymodule_get_menu_items('footer-other-links');
-
 $variables['theme_link'] = drupal_get_path('theme', 'business_responsive_theme');
 
 }

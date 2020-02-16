@@ -206,9 +206,9 @@ ul.links.inline li{
 
 .footer-menu{
   margin: 0;
-  border: 0;
-  background: #3C3B3B;
-  color: #fff;
+    border: 0;
+    background: #ffffff;
+    color: #000;
 }
 
 .footer-menu ul{
