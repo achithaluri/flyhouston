@@ -18,6 +18,7 @@ regions:
   header: 'Header'
   search: 'Search' 
   primary_menu: 'Primary menu'
+  custom_menu_block: 'Custom Menu Block'
 
   topwidget_first: 'Top First widget'
   topwidget_second: 'Top Second widget'
@@ -31,6 +32,9 @@ regions:
   page_title: 'Page title'
   breadcrumb: 'Breadcrumb'
   content: 'Content'
+  home_page_slider: 'Home page Slider'
+  home_page_bg_section: 'Home Page Background Section'
+
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
 
